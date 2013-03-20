@@ -47,6 +47,8 @@ initCells();
 //set the event listener for the reinit button
 reinitButton.onclick = function () {
     "use strict";
+    //clear the container
+    mainContainer.innerHTML = "";
     //reset the cells Array
     cellsArray = [];
     initCells();
