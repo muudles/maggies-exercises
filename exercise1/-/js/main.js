@@ -3,7 +3,7 @@
 /*global Cell, sortCells*/
 
 //set the number of cells to be instanciated
-var numberOfCells = 100;
+var numberOfCells = 10;
 
 //get the main element;
 var mainContainer = document.getElementById('main');
@@ -62,6 +62,9 @@ sortButton.onclick = function () {
     
     //set the position of the cells
     refreshCellsPosition();
-    
+
     return true;
 };
+
+
+
